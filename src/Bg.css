@@ -1,0 +1,13 @@
+/* Bg.css */
+.background-image {
+    background-image: url('./p.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: black;
+
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+  }
+  
