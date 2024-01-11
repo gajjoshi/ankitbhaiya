@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import WheelComponent from 'react-wheel-of-prizes';
 import Confetti from 'react-dom-confetti';
 import './App.css';
-import casino from './casino.mp4'
+import casino from './casino3.mp4'
 // import Popup from './Popup';
 
 export default function App() {
