@@ -108,7 +108,7 @@ export default function App() {
             />
           </div>
           <div className="confetti">
-            <Confetti active={confetti} config={{ angle: 90, spread: 360, startVelocity: 200, elementCount: 5000, position: 'fixed', origin: { x: 0.1, y: 0.5 } }} />
+            <Confetti active={confetti} config={{ angle: 90, spread: 360, startVelocity: 100, elementCount: 2500, position: 'fixed', origin: { x: 1, y: 0.5 } }} />
           </div>
         </div>
       </div>
