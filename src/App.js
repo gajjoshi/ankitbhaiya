@@ -3,6 +3,8 @@ import WheelComponent from 'react-wheel-of-prizes';
 import Confetti from 'react-dom-confetti';
 import './App.css';
 import casino from './casino3.mp4'
+import logo from './D247a.png'
+
 // import Popup from './Popup';
 
 export default function App() {
@@ -76,6 +78,12 @@ export default function App() {
   }
 
   return (
+    <>
+    <div className='logo'>
+    <img style={{height:200}} src={logo} alt="React Image" />
+
+
+    </div>
     <div className="app-container">
             <video autoPlay muted loop className="video-background">
         <source src={casino} type="video/mp4" />
@@ -106,5 +114,6 @@ export default function App() {
       </div>
 
     </div>
+    </>
   );
 }
