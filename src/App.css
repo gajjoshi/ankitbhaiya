@@ -5,6 +5,10 @@
 
 
 }
+.logo{
+  height:200;
+  margin-bottom: 5px;
+}
 .app-container {
   position: relative;
 }
@@ -30,10 +34,10 @@
   height: 110vh; /* Adjust the height as needed */
   margin-left: 400px;
 }
-.wheel
+/* .wheel
 {
-  margin-top: 0px;
-}
+  margin-top: 10%;
+} */
 
 
 
