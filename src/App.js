@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import WheelComponent from 'react-wheel-of-prizes';
 import Confetti from 'react-dom-confetti';
 import './App.css';
+import casino from './casino.mp4'
 // import Popup from './Popup';
 
 export default function App() {
@@ -76,6 +77,10 @@ export default function App() {
 
   return (
     <div className="app-container">
+            <video autoPlay muted loop className="video-background">
+        <source src={casino} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
       <div className="background-image"></div>
       <div className="App">
         <div className="wheel-container">
