@@ -3,7 +3,7 @@ import WheelComponent from 'react-wheel-of-prizes';
 import Confetti from 'react-dom-confetti';
 import './App.css';
 import casino from './casino3.mp4'
-import logo from './D247a.png'
+import logo from './D247.png'
 
 // import Popup from './Popup';
 
@@ -80,7 +80,7 @@ export default function App() {
   return (
     <>
     <div className='logo'>
-    <img style={{height:200}} src={logo} alt="React Image" />
+    <img src={logo} alt="React Image" />
 
 
     </div>
@@ -108,7 +108,7 @@ export default function App() {
             />
           </div>
           <div className="confetti">
-            <Confetti active={confetti} config={{ angle: 90, spread: 360, startVelocity: 120, elementCount: 4000, position: 'fixed', origin: { x: 0.1, y: 0.5 } }} />
+            <Confetti active={confetti} config={{ angle: 90, spread: 360, startVelocity: 200, elementCount: 5000, position: 'fixed', origin: { x: 0.1, y: 0.5 } }} />
           </div>
         </div>
       </div>
